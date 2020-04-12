@@ -28,7 +28,6 @@ starttime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 ytxt = open('ytxt.txt','w+')
 ytxt.write('开始时间:'+starttime+"\n")
 ytxt.close()
-print("本程序仅限7-310内部使用")
 print("英语听力转文本，缺点没有标点符号")
 print("学习英语，不可能的，这辈子都不存在")
 f = 0
